@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Karla:wght@400;500;700&family=Poppins:wght@300;600&display=swap');
+
+#root {
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: 'Karla', sans-serif;
+  
+}
+
+
+.navbar{
+  background: linear-gradient(to right, #672280,  #A626D3);
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #FFFFFF;
+
+}
+.logo{
+  display: flex;
+  gap: .5rem;
+}
+.navbar > h3{
+  font-size: 1.4rem;
+}
+main{
+  background-color: #FFFFFF;
+  padding-inline: 4rem;
+  padding-block: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  min-height: 100vh;
+}
+label {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+input{
+  background-color: #FFFFFF;
+  border: .1rem solid #D5D4D8;
+  border-radius: .8rem;
+  padding: 1rem;
+  color: #0D0D0D;
+  outline: none;
+  width: 100%;
+}
+
+button {
+  padding: 1rem;
+  background: linear-gradient(to right, #672280,  #A626D3);
+  border: 0;
+  border-radius: .6rem;
+  cursor: pointer;
+}
+
+.meme {
+  position: relative;
+}
+.bottom{
+  bottom: 0;
+}
+.top{
+  top: 0;
+}
+.meme-text {
+  position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
